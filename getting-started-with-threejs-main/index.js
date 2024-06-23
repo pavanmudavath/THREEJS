@@ -27,7 +27,7 @@ const controls = new OrbitControls(camera,renderer.domElement);
 controls.enableDamping = true;
 controls.dampingFactor = 0.03;
 
-//createing some thing
+//createing some thing like globe object
 const geo = new THREE.IcosahedronGeometry(1.0,2);
 const mat = new THREE.MeshStandardMaterial({
     color:0xffffff,
